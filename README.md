@@ -20,4 +20,7 @@ Values considered are
  
 All the subjetive sentences are trained and tested on a Naive Bayes model.
 
+###### Result...
+Naive Bayes Avg. Accuracy (10-fold): __85.60__
+
 > Code is in `/Graph_cut.ipynb`

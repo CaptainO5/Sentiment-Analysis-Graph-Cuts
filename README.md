@@ -11,5 +11,13 @@ Based on **_A Sentimental Education: Sentiment Analysis Using Subjectivity  Summ
 > Code and results are in `/Subjectivity.ipynb`
 
 ##### Part 2
-Instead of using a Naive bayes model to extract Subjective sentences, Graph cut based algorithm is used.
-###### TO DO
+Instead of using a Naive bayes model to extract Subjective sentences, Graph cut based algorithm, mentioned in the paper, is used.
+
+Values considered are 
+ - T = 2
+ - c = 0.5
+ - f(d) = 1 / d ** 2
+ 
+All the subjetive sentences are trained and tested on a Naive Bayes model.
+
+> Code is in `/Graph_cut.ipynb`
